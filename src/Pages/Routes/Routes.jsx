@@ -11,6 +11,7 @@ import Addmovie from "../AdminPanel/AddMovie/Addmovie";
 import Dashboard from "../../Layout/Dashboard";
 import ManageMovie from "../AdminPanel/ManageMovie/ManageMovie";
 import TvSerise from "../TvSerise/TvSerise";
+import Pricing from "../Pricing/Pricing";
 
 const router = createBrowserRouter([
     {
@@ -37,7 +38,11 @@ const router = createBrowserRouter([
             {
                 path: "/tvSeries",
                 element: <TvSerise />
-            }
+            },
+            {
+                path: "/pricing",
+                element: <Pricing />
+            },
         ]
     },
     {

@@ -56,7 +56,7 @@ const Navbar = () => {
                             <div className="indicator">
                                 <button className="btn btn-circle btn-outline">
                                     <FaGem className="text-3xl text-info" />
-                                    <span className="badge badge-ghost indicator-item">{role.credit}</span>
+                                    <span className={`badge ${role.credit<5 ?'badge-error':'badge-ghost'}  indicator-item`}>{role.credit}</span>
                                 </button>
                             </div>
                             <div tabIndex={0} className="mt-3 card card-compact dropdown-content w-52 bg-base-100 shadow">
