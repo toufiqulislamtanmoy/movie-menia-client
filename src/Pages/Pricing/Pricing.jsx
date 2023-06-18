@@ -43,6 +43,7 @@ const Pricing = () => {
                     </div>
                 </div>
             </div>
+            [Note: THis is under construction]
         </div>
     );
 };
